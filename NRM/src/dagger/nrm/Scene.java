@@ -21,7 +21,7 @@ public class Scene {
 	public Scene() {
 		mapTexture = new Texture(Gdx.files.internal("data/texture2__COLOR.png"));
 		mapTexture.setWrap(TextureWrap.Repeat, TextureWrap.Repeat);
-		normalTexture = new Texture(Gdx.files.internal("data/texture2__NRM.png"));
+		normalTexture = new Texture(Gdx.files.internal("data/texture3_NRM_deeper.jpg"));
 		normalTexture.setWrap(TextureWrap.Repeat, TextureWrap.Repeat);
 		noTexture = new Texture(Gdx.files.internal("data/noTexture.png"));
 		noTexture.setWrap(TextureWrap.Repeat, TextureWrap.Repeat);
